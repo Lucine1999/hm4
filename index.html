@@ -70,7 +70,7 @@
                                 <th scope="col" class="text-left">
                                     System Name
                                 </th>
-                                <th scope="col">ID</th>
+                                <th scope="col" class="id-col-distance-style text-right">ID</th>
                                 <th scope="col" class="text-left">
                                     Created date
                                 </th>
@@ -86,13 +86,17 @@
                                         James-Main-Mackbook
                                     </p>
                                 </td>
-                                <td>91520</td>
+                                <td class="id-col-distance-style text-right">91520</td>
                                 <td class="text-left">01 Jan 2019</td>
                                 <td>2</td>
                                 <td>
                                     <div class="text-right add-remove-buttons">
-                                        <button>Add License</button>
-                                        <button>Remove</button>
+                                        <button class="add-license-button">
+                                            Add License
+                                        </button>
+                                        <button class="remove-license-button">
+                                            Remove
+                                        </button>
                                     </div>
                                 </td>
                             </tr>
@@ -103,82 +107,101 @@
                             <div>
                                 <div class="vertical-line"></div>
                             </div>
-                            <h1>cdhsdcbhjbdsh</h1>
                         </div>
-                        <div class="w-100">
-                            <table class="systems-table-row">
+                        <div class="table-fixed-style child-systems-tables">
+                            <table class="systems-table-row first-system-table">
                                 <thead>
                                     <tr>
                                         <th scope="col" class="text-left">
-                                            System Name
+                                            Licenses
                                         </th>
-                                        <th scope="col">ID</th>
-                                        <th scope="col" class="text-left">
-                                            Created date
-                                        </th>
-                                        <th scope="col">Active Licenses</th>
+                                        <th></th>
+                                        <th scope="col"><p class="child-table-middle-cell-style">Expires</p></th>
+                                        <th></th>
                                         <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>
-                                            <div class="arrow-down inline-block"></div>
-                                            <p class="inline-block">
-                                                James-Main-Mackbook
-                                            </p>
-                                        </td>
-                                        <td>91520</td>
-                                        <td class="text-left">01 Jan 2019</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="text-right add-remove-buttons">
-                                                <button>Add License</button>
-                                                <button>Remove</button>
-                                            </div>
-                                        </td>
+                                        <td>Jenkins Pro</td>
+                                        <td></td>
+                                        <td class="text-left"><p class="child-table-middle-cell-style">Never</p></td>
+                                        <td></td>
+                                        <td><p class="download-style">Download</p></td>
                                     </tr>
                                 </tbody>
                             </table>
                             <table class="systems-table-row">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="text-left">
-                                            System Name
-                                        </th>
-                                        <th scope="col">ID</th>
-                                        <th scope="col" class="text-left">
-                                            Created date
-                                        </th>
-                                        <th scope="col">Active Licenses</th>
-                                        <th></th>
-                                    </tr>
-                                </thead>
                                 <tbody>
                                     <tr>
-                                        <td>
-                                            <div class="arrow-down inline-block"></div>
-                                            <p class="inline-block">
-                                                James-Main-Mackbook
-                                            </p>
-                                        </td>
-                                        <td>91520</td>
-                                        <td class="text-left">01 Jan 2019</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="text-right add-remove-buttons">
-                                                <button>Add License</button>
-                                                <button>Remove</button>
-                                            </div>
-                                        </td>
+                                        <td>Outfit Pro</td>
+                                        <td></td>
+                                        <td class="text-left"><p class="child-table-middle-cell-style">29 Jul 2021</p></td>
+                                        <td></td>
+                                        <td><p class="download-style">Download</p></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <table class="systems-table-row systems-last-table-style">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-left">
+                                    System Name
+                                </th>
+                                <th scope="col" class="id-col-distance-style text-right">ID</th>
+                                <th scope="col" class="text-left">
+                                    Created date
+                                </th>
+                                <th scope="col">Active Licenses</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="arrow-down inline-block"></div>
+                                    <p class="inline-block">
+                                        James-Main-Mackbook
+                                    </p>
+                                </td>
+                                <td class="id-col-distance-style text-right">91520</td>
+                                <td class="text-left">01 Jan 2019</td>
+                                <td>2</td>
+                                <td>
+                                    <div class="text-right add-remove-buttons">
+                                        <button class="add-license-button">
+                                            Add License
+                                        </button>
+                                        <button class="remove-license-button">
+                                            Remove
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <h2>Add System</h2>
+                <div class="upload-file-section">
+                    <label class="custom-file-upload">
+                        <input type="file"/>
+                        <!-- <i class="fa fa-cloud-upload"></i> Custom Upload -->
+                        <div class="upload-icon-section">
+                            <div class="upload-icon">
+                                <div>
+                                    <div class="upload-icon-vertical-line"></div>
+                                    <div class="upload-icon-arrow down"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="choose-file-text"><span class="choose-file-style">Choose a file</span> to upload or drag it here (jpg, png, max size 5mb)</p>
+                            </div>
+                        </div>
+                    </label>
                 </div>
             </section>
         </main>
